@@ -75,7 +75,7 @@ def main(page: ft.Page):
         page.window_close()
 
     # logo (cambiá la ruta)
-    logo = ft.Image(src="1.webp", width=140, height=140)
+    logo = ft.Image(src="/1.webp", width=140, height=140)
 
     boton_buscar = ft.ElevatedButton("Buscar", on_click=buscar, bgcolor="#4cc9f0", color="black")
     boton_salir = ft.ElevatedButton("Salir", on_click=salir, bgcolor="#7209b7", color="white")
@@ -101,4 +101,4 @@ def main(page: ft.Page):
         ], expand=True)
     )
 
-ft.app(target=main)
+ft.app(target=main, assets_dir="assets")
