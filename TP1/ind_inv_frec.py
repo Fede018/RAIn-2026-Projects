@@ -43,7 +43,7 @@ def main(page: ft.Page):
     page.theme_mode = ft.ThemeMode.DARK
     page.bgcolor = "#0a0f1c"
 
-    archivos = ["1.pdf","2.pdf","3.pdf","4.pdf","5.pdf"]
+    archivos = ["data/1.pdf","data/2.pdf","data3.pdf","data/4.pdf","data/5.pdf"]
     indice = generar_indice_frecuencia(archivos)
 
     input_txt = ft.TextField(
