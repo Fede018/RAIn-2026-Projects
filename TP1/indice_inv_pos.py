@@ -10,7 +10,7 @@ import os
 STOP_WORDS = {
     "a","acerca","actualmente","adelante","además","adonde","al","algo","algunos",
     "ante","antes","aquí","bajo","cada","casi","cerca","como","con","contra",
-    "de","del","desde","donde","durante","el","él","ella","ellos","en","entre",
+    "de","del","desde","donde","durante","el","él","ellsa","ellos","en","entre",
     "es","esta","está","este","esto","estos","fue","había","hasta","hay","la",
     "las","le","les","lo","los","más","me","mi","mismo","muy","no","nos",
     "o","otro","para","pero","por","que","qué","se","si","sí","sobre","su",
@@ -25,12 +25,7 @@ STOP_WORDS = {
 def limpiar_texto(texto):
     return re.findall(r'\b[a-záéíóúüñ]{2,}\b', texto.lower())
 
-# ─────────────────────────────────────────────
-#  RESOLVER RUTAS DE LOS PDFs
-#  Busca en varias ubicaciones posibles
-# ─────────────────────────────────────────────
 def resolver_rutas(nombres):
-    """Busca cada PDF en varias ubicaciones posibles y devuelve las rutas válidas."""
     candidatos_base = [
         "",                          # carpeta actual
         os.path.dirname(os.path.abspath(__file__)),  # carpeta del script
