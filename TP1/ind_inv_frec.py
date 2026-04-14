@@ -42,8 +42,8 @@ def main(page: ft.Page):
     page.title = "Frecuencia Pandora"
     page.theme_mode = ft.ThemeMode.DARK
     page.bgcolor = "#0a0f1c"
-
-    archivos = ["data/1.pdf","data/2.pdf","data3.pdf","data/4.pdf","data/5.pdf"]
+    
+    archivos = ["TP1/data/1.pdf", "TP1/data/2.pdf", "TP1/data/3.pdf", "TP1/data/4.pdf", "TP1/data/5.pdf"]
     indice = generar_indice_frecuencia(archivos)
 
     input_txt = ft.TextField(

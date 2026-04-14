@@ -268,7 +268,7 @@ def main(page: ft.Page):
     page.add(ft.Container(carga, padding=40))
     page.update()
 
-    nombres = ["data/1.pdf","data/2.pdf","data/3.pdf","data/4.pdf","data/5.pdf"]
+    nombres = ["TP1/data/1.pdf", "TP1/data/2.pdf", "TP1/data/3.pdf", "TP1/data/4.pdf", "TP1/data/5.pdf"]
     rutas = resolver_rutas(nombres)
     indice_pos, indice_freq = generar_indices(rutas)
     total_t = len(indice_freq)
