@@ -1,0 +1,19 @@
+El Machine Learning es un campo de la inteligencia artificial que está impactando 
+últimamente en todas las áreas del conocimiento. Las áreas de las ciencias sociales, en 
+especial la educación, no es ajena a ella, por tanto, se realiza una revisión sistemática de la 
+literatura sobre aquellas técnicas y aplicaciones del Machine Learning e inteligencia 
+artificial en Educación. La falta de conocimientos y habilidades de los educadores en 
+Machine Learning e inteligencia artificial limita la implementación óptima de estas 
+tecnologías en la educación. El objetivo de este trabajo es identificar las oportunidades de 
+mejora de los procesos de enseñanza-aprendizaje y la gestión educativa en todos los niveles 
+del contexto educativo a través de la aplicación de Machine Learning e inteligencia artificial. 
+Las bases de datos utilizadas para la búsqueda bibliográfica fueron Web of Science y Scopus, 
+la metodología aplicada se basó en la declaración PRISMA para la obtención y análisis de 
+55 artículos publicados en revistas de alto impacto entre los años 2021 y 2023. Los 
+resultados mostraron que los estudios trataron un total de 33 técnicas de Machine Learning e 
+inteligencia artificial y múltiples aplicaciones que fueron implementadas en contextos 
+educativos en niveles de educación primaria, secundaria y superior en 38 países. Las 
+conclusiones mostraron el fuerte impacto que tiene el uso de Machine Learning e inteligencia 
+artificial. Este impacto se ve reflejado en el uso de diferentes técnicas inteligentes en 
+contextos educativos y el aumento de investigaciones en escuelas de secundaria sobre 
+inteligencia artificial. 
